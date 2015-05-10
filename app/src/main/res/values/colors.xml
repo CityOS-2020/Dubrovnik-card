@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="secondaryBlue">#1976D2</color>
-    <color name="primaryBlue">#2196F3</color>
+    <color name="secondaryBlue">#0e2c4e</color>
+    <color name="primaryBlue">#0e2c4e</color>
     <color name="customGray">#ECEFF1</color>
     <color name="textGray">#424242</color>
     <color name="redLight">#ed1b24</color>
