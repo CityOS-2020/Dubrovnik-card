@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/photo_frame"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="200dp"
+        android:foregroundGravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:src="@drawable/miho_pracat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/dialogImage"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#70000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Miho Pracat"
+                android:textColor="#fff"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="#fff"
+            android:textSize="14dp"
+            android:layout_below="@id/photo_frame"
+            android:text="@string/landmark_info"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Dismiss"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dismissDialog"
+        android:textColor="#ff0000"
+        android:layout_below="@id/textView2"
+ />
+
+
+</RelativeLayout>

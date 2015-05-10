@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="dubrovnik.card.hardcode.dubrovnikcard.MainFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dbk_background" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90ffffff"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+
+            >
+
+
+            <Button
+                android:elevation="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore"
+                android:textColor="#0e2c4e"
+                android:background="@android:color/transparent"
+                android:id="@+id/exploreMain"
+                android:drawableTop="@drawable/ic_explore_black_48dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="35dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                android:textColor="#0e2c4e"
+                android:background="@android:color/transparent"
+                android:id="@+id/mapMain"
+                android:drawableTop="@drawable/ic_map_black_48dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="35dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy"
+                android:textColor="#0e2c4e"
+                android:background="@android:color/transparent"
+                android:id="@+id/buyMain"
+                android:drawableTop="@drawable/ic_shopping_cart_black_48dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit Us"
+                android:textColor="#0e2c4e"
+                android:background="@android:color/transparent"
+                android:id="@+id/visitMain"
+                android:drawableTop="@drawable/ic_public_black_48dp"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                />
+
+
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:ThemeOverlay.Material.Light">
+        <item name="android:colorPrimary">@color/primaryBlue</item>
+        <item name="android:colorPrimaryDark">@color/secondaryBlue</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:animateLayoutChanges">true</item>
+        <item name="android:colorButtonNormal">@color/primaryBlue</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

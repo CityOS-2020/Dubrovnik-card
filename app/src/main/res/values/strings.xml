@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dubrovnik Card</string>
+    <string name="hello_world">This is redeem ticket activity.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_redeem_ticket">Redeem Ticket</string>
+    <string name="title_activity_explore">Explore</string>
+    <string name="landmark_info">Miho Pracat was a rich seaman from the Island of Lopud, who left his wealth to the Republic. This powerful ship-owner and accomplished merchant was shown the way to success by a little tenacious lizard. Watching its two attempts to climb the wall of his fathers house, two downfalls and eventually the third successful climbing to the top, Pracat realised the importance of persistence.</string>
+</resources>
